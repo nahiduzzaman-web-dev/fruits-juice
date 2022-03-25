@@ -16,6 +16,7 @@ const Fruits = () => {
                         {
                             fruitsJuice.map(fruit => <Fruit
                                 key={fruit.id}
+                                fruit={fruit}
                             ></Fruit>)
                         }
                     </div>

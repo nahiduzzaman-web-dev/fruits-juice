@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Fruit = () => {
+const Fruit = (props) => {
+    console.log(props);
+    const { picture, name, price } = props.fruit;
     return (
         <div>
-            this is fruit
+
         </div>
     );
 };
