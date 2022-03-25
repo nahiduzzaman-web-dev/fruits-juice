@@ -1,26 +1,43 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Fruit from '../Fruit/Fruit';
 import './Fruits.css'
 
 const Fruits = () => {
     const [fruitsJuice, setFruitsJuice] = useState([]);
-    useState(() => {
+    const [cart, setCart] = useState([]);
+
+    useEffect(() => {
         fetch('fruits.json')
             .then(res => res.json())
             .then(data => setFruitsJuice(data))
-    }, [])
+    }, []);
+
+    // cart handle
+    const handleAddToCat = (fruit) => {
+        const newCart = [...cart, fruit];
+        setCart(newCart)
+    }
+
     return (
         <div className='main-container'>
             <div className="fruits-container">
                 {
                     fruitsJuice.map(fruit => <Fruit
                         key={fruit.id}
-                        fruit={fruit}
+                        fruitData={fruit}
+                        handleAddToCat={handleAddToCat}
                     ></Fruit>)
                 }
             </div>
             <div className='cart-container'>
-                <p>cart container</p>
+                <h5>Your Selected Juice Items</h5>
+                {
+                    cart.map(juiceItem => <Cart
+                        key={juiceItem.id}
+                        item={juiceItem}
+                    ></Cart>)
+                }
             </div>
         </div>
 

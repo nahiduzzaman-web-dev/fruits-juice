@@ -11,9 +11,11 @@
     
 }
 .cart-container{
-    margin: 100px 10px;
-    background-color: rgba(144, 238, 144, 0.171);
-    height: 300px;
+    margin: 100px 0;
+    background-color: rgba(169, 197, 169, 0.171);
+    height: 500px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-
+}
+.cart-container h5{
+    text-align: center;
 }

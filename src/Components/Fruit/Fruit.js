@@ -2,9 +2,11 @@ import React from 'react';
 import { GiShoppingCart } from 'react-icons/gi';
 import './Fruit.css'
 
-const Fruit = (props) => {
-    console.log(props);
-    const { picture, name, price } = props.fruit;
+const Fruit = ({ fruitData, handleAddToCat }) => {
+
+    const { picture, name, price } = fruitData;
+
+
     return (
         <div className='fruit'>
             <img src={picture} alt="..." />
@@ -12,7 +14,7 @@ const Fruit = (props) => {
                 <p className='juice-name'>{name}</p>
                 <p>Price: ${price}</p>
             </div>
-            <button className='btn-cart'>
+            <button onClick={() => handleAddToCat(fruitData)} className='btn-cart'>
                 <p className='btn-text'>Add To Cart <GiShoppingCart className='cart-icon' /></p>
             </button>
         </div>
