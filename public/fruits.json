@@ -1,74 +1,74 @@
 [
     {
         "id": "623dca3f0ad2ed52ac5d1b08",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://pncfoods.com/wp-content/uploads/2021/06/Strawberry-Juice.jpg",
         "price": 67,
-        "name": "Naomi Salazar"
+        "name": "Strawberry Juice"
     },
     {
         "id": "623dca3f162b9286b901e059",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://media01.stockfood.com/largepreviews/MzQ0NDQ2MjA4/11111168-A-glass-of-banana-juice-with-bananas-in-the-background-and-banana-slices-next-to-it.jpg",
         "price": 316,
-        "name": "Holland Brooks"
+        "name": "Banana Juice"
     },
     {
         "id": "623dca3fa4fd5ba356e99a63",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://st.depositphotos.com/1004373/4167/i/950/depositphotos_41676763-stock-photo-pineapple-juice.jpg",
         "price": 321,
-        "name": "Powers Davenport"
+        "name": "Pine Apple Juice"
     },
     {
         "id": "623dca3ff5f8d6957dfdc3c4",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://static.toiimg.com/thumb/68628584.cms?width=680&height=512&imgsize=185313",
         "price": 271,
-        "name": "Lucia Olsen"
+        "name": "Orange Juice"
     },
     {
         "id": "623dca3fea1cbb35e3aba8c6",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://cdn-prod.medicalnewstoday.com/content/images/articles/323/323752/cherry-juice-in-a-glass.jpg",
         "price": 238,
-        "name": "Bowman Watson"
+        "name": "Cherry Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8d3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://sc04.alicdn.com/kf/U64ee461471744d62946bfe0275fdf6d7f/248593859/U64ee461471744d62946bfe0275fdf6d7f.jpg",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Dragon Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8i3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://stylesatlife.com/wp-content/uploads/2019/09/Grape-Juice-Benefits-For-Health-Hair-Skin.jpg",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Grapes Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8k3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://img.freepik.com/free-photo/lychee-juice-lychee-fruit_1150-13686.jpg",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Lychee Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8s3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://static.toiimg.com/thumb/59809728.cms?width=1200&height=900",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Mango Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8c3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://www.organicfacts.net/wp-content/uploads/lemonjuiceforacne.jpg",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Lemon Juice"
     },
     {
         "id": "623dca3feaa3a73b43b9d8z3",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://www.savorythoughts.com/wp-content/uploads/2020/09/Papaya-Juice-Recipe.jpg",
         "price": 130,
-        "name": "Barrera Powers"
+        "name": "Papaya Juice"
     },
     {
         "id": "623dca3f01e290e380e0b809",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://cdn-prod.medicalnewstoday.com/content/images/articles/318/318385/halves-pomegranate-with-seeds-and-pomegranate-juice-on-marbled-surface.jpg",
         "price": 269,
-        "name": "Olson Rowe"
+        "name": "Pomegranate Juice"
     }
 ]

@@ -1,0 +1,19 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+.fruits-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 50px;
+    gap: 30px;
+    
+}
+.cart-container{
+    margin: 100px 10px;
+    background-color: rgba(144, 238, 144, 0.171);
+    height: 300px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
