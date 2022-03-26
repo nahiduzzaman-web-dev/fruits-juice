@@ -67,6 +67,12 @@
     background-color: #5c3e3e;
     padding: 5px;
 }
+#likeMost{
+    margin-bottom: 10px;
+}
+.juice-name{
+    
+}
 /* responsive */
 @media screen and (max-width: 600px){
     .main-container{

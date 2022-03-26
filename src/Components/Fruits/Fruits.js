@@ -28,8 +28,15 @@ const Fruits = () => {
     }
 
     // choose handle
-    const handleChooseItem = () => {
-        console.log('choose')
+    const handleChooseItem = (fruit) => {
+        const newCart = [...cart, fruit];
+        let item = newCart[Math.floor(Math.random(3) * (3 - 0 + 0) + 0)];
+        console.log(item?.name ? item.name : 'Click Again')
+        document.getElementById('likeMost').innerHTML = `
+           <div class='juice-name'>
+            <span><small>${item?.name ? item.name : 'Click Again'}</small></span>
+           </div>
+        `
     }
     // choose again handle
     const chooseAgain = () => {
@@ -64,6 +71,9 @@ const Fruits = () => {
                     }
 
                     <div className='selected-btn-section'>
+                        <div id='likeMost'>
+
+                        </div>
                         <button onClick={handleChooseItem} className='choose-for-me'>
                             <p>Choose 1 For Me </p>
                         </button>
