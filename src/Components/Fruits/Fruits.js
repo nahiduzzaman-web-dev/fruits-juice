@@ -19,10 +19,8 @@ const Fruits = () => {
     const handleAddToCat = (fruit) => {
         const newCart = [...cart, fruit];
         if (newCart.length === 5) {
-            // alert("maximum juice items added")
-            //add componentDidMount
             document.getElementById('error').style.display = 'block'
-
+            console.log(newCart.length)
         }
         else {
             setCart(newCart)
@@ -32,6 +30,10 @@ const Fruits = () => {
     // choose handle
     const handleChooseItem = () => {
         console.log('choose')
+    }
+    // choose again handle
+    const chooseAgain = () => {
+        setCart([])
     }
 
     // error message closed
@@ -66,7 +68,7 @@ const Fruits = () => {
                             <p>Choose 1 For Me </p>
                         </button>
                         <br />
-                        <button className='again-choose'>
+                        <button onClick={chooseAgain} className='again-choose'>
                             <p>Choose Again <TiTick /></p>
                         </button>
                     </div>
