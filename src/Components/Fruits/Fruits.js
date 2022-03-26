@@ -31,7 +31,6 @@ const Fruits = () => {
     const handleChooseItem = (fruit) => {
         const newCart = [...cart, fruit];
         let item = newCart[Math.floor(Math.random(3) * (3 - 0 + 0) + 0)];
-        console.log(item?.name ? item.name : 'Click Again')
         document.getElementById('likeMost').innerHTML = `
            <div class='juice-name'>
             <span><small>${item?.name ? item.name : 'Click Again'}</small></span>
