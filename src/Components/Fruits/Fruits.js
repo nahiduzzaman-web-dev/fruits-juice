@@ -17,14 +17,26 @@ const Fruits = () => {
 
     // cart selected handle
     const handleAddToCat = (fruit) => {
-        const newCart = [...cart, fruit];
-        if (newCart.length === 5) {
-            document.getElementById('error').style.display = 'block'
+
+        const selectFruit = fruit;
+        let cartJuice = [];
+        if (cart.includes(selectFruit)) {
+            setCart(cart);
+            alert('Allready you choose your juicy, so plz another choose again')
 
         }
         else {
-            setCart(newCart)
+            cartJuice = [...cart, selectFruit];
+            if (cartJuice.length === 5) {
+                document.getElementById('error').style.display = 'block'
+
+            }
+            else {
+                setCart(cartJuice)
+            }
         }
+
+
     }
 
     // choose handle
@@ -40,6 +52,8 @@ const Fruits = () => {
     // choose again handle
     const chooseAgain = () => {
         setCart([])
+        document.getElementById('likeMost').innerHTML = '';
+
     }
 
     // error message closed
