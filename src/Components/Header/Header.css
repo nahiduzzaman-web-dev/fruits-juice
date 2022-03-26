@@ -22,3 +22,14 @@
 .offer{
     color: cadetblue;
 }
+@media screen and (max-width: 600px){
+    .header-container{
+        flex-direction: column;
+    }
+    /* .banner-details {
+        text-align: center;
+    } */
+    .banner-poster img{
+        width: 350px;
+    }
+}

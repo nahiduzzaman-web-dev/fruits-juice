@@ -9,7 +9,8 @@
     width: 286px;
     height: 286px;
     border-radius: 8px;
-    margin: 7px;
+    margin: 2px;
+    padding: 5px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .juice-info{
@@ -37,4 +38,16 @@
 }
 .cart-icon{
     font-size: 20px;
+}
+@media screen and (max-width: 600px){
+    .fruit{
+        width: 200px;
+        height: 350px;
+    }
+    .fruit img{
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+        margin: 5px;
+    }
 }

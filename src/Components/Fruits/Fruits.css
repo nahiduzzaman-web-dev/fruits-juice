@@ -13,9 +13,26 @@
 .cart-container{
     margin: 100px 0;
     background-color: rgba(169, 197, 169, 0.171);
-    height: 500px;
+    height: 700px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .cart-container h5{
     text-align: center;
+}
+@media screen and (max-width: 600px){
+    .main-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .fruits-container{
+        grid-template-columns: 1fr;
+        margin: 0;
+        
+    }
+    .cart-container{
+        justify-content: start;
+        height: auto;
+    }
+    .cart-container h5{
+        text-align: start;
+    }
 }
