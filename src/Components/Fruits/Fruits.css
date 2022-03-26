@@ -19,6 +19,55 @@
 .cart-container h5{
     text-align: center;
 }
+.selected-btn-section{
+    margin-top: 100px;
+    margin-left: 6px;
+}
+.choose-for-me{
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(59, 191, 235);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+.choose-for-me:hover{
+    cursor: pointer;
+    background-color: rgb(99, 175, 201);
+}
+.again-choose{
+    border: none;
+    background-color: rgba(255, 166, 0, 0.788);
+    color: rebeccapurple;
+    border-radius: 5px;
+    padding: 0px 12px;
+}
+.again-choose:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+/* Error Message */
+#error{
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.863);
+    color: #ffff;
+    width: 20%;
+    padding: 10px 15px;
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+#close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:#ffffff;
+    background-color: #5c3e3e;
+    padding: 5px;
+}
+/* responsive */
 @media screen and (max-width: 600px){
     .main-container{
         grid-template-columns: 1fr 1fr;
