@@ -20,7 +20,7 @@ const Fruits = () => {
         const newCart = [...cart, fruit];
         if (newCart.length === 5) {
             document.getElementById('error').style.display = 'block'
-            console.log(newCart.length)
+
         }
         else {
             setCart(newCart)
