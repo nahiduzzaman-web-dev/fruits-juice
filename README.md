@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Fruits Juicy Corner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was row CSS with React apps [Fruits Juicy Corner- (Live Site Link)](https://fruits-juicy-corner.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: # Script here [Git Hub Link](https://github.com/Programming-Hero-Web-Course4/lucky-one-nahiduzzaman2021).
+
+### Whats type my project
+
+In this project, you can cart your juicy fruits but max 4 type select and  you can also delete your
+selected jusicy items. and you can check randomly your selected juicy items. If you interested
+you can visit  [Fruits Juicy Corner- (Live Site Link)](https://fruits-juicy-corner.netlify.app/).
+
 
 ### `npm start`
 
